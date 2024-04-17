@@ -1,0 +1,4 @@
+VIEW "RegiontextsView"
+(REGION, DESCRIPTION )
+	as select REGION, DESCRIPTION
+	from "REGIONS"
