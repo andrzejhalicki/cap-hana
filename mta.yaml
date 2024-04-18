@@ -30,7 +30,7 @@ modules:
 
   - name: cap-hana-db-deployer
     type: hdb
-    path: db
+    path: gen/db
     parameters:
       buildpack: nodejs_buildpack
     requires:
